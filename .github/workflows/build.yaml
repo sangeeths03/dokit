@@ -27,7 +27,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-13, macos-14, macos-15]
+        os: [macos-13-canary, macos-14-canary, macos-15-canary]
         qt-version: [5.15.2, 6.2.4, 6.5.3]
         compiler: [clang]
 
